@@ -1,0 +1,17 @@
+@import "./styles/variable.scss";
+
+:root {
+  font-family: var(--font-family);
+  color: var(--dark-cl);
+  background-color: #262833;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+}
